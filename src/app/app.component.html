@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container">
+  <a routerLink="homepage" class="navbar-brand">BOOTSTRAPS!!!</a>
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#navbaraid">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbaraid">
+  <ul class="navbar-nav text-center ml-auto">
+    <li class="nav-item">
+      <a routerLink="interface" class="nav-link">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link">ABOUT US</a>
+    </li>
+    <li class="nav-item dropdown">
+		  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			SPECIFIC-DESIGN
+		  </a>
+		  <div class="dropdown-menu navbar-dark bg-dark" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" routerLink="gridview">Grid_View</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" routerLink="cardview">Card's</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" routerLink="gridcard">Grid_Card</a>
+		  </div>
+		</li>
+    <li class="nav-item">
+      <a href="#" class="nav-link">CONTACT</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link">SERVICES</a>
+    </li>
+  </ul>
+  </div>
+</div>
+</nav>
+<router-outlet></router-outlet>

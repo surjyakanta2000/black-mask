@@ -1,0 +1,9 @@
+.dropdown-item:hover
+{
+    transform: scale(1.02) !important;
+    color: black !important;
+}
+.dropdown-item
+{
+    color: honeydew !important;
+}

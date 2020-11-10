@@ -1,0 +1,35 @@
+/* .jumbotron
+{
+    background-image: url("E:/BlackMusk/src/assets/surya.jpg") !important;
+}*/
+.bg-success
+{     
+    background-image: linear-gradient(rgba(0,255,0,0.3),rgba(0,255,0,0.3)),
+                    url("E:/BlackMusk/src/assets/surya.jpg") !important;
+} 
+.slide
+{
+    transition: .5s !important;
+}
+.btn-info
+{
+    background-color: blue !important;
+}
+.btn-success:hover
+{
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 1px 68px 14px rgba(0,255,183,1);
+    -moz-box-shadow: 0px 1px 68px 14px rgba(0,255,183,1);
+    box-shadow: 0px 1px 68px 14px rgba(0,255,183,1);   
+}
+.btn-info:hover
+{
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 1px 68px 14px rgba(0,255,183,1);
+    -moz-box-shadow: 0px 1px 68px 14px rgba(0,255,183,1);
+    box-shadow: 0px 1px 68px 14px rgba(0,255,183,1);
+}
+label
+{
+    color: cornsilk !important;
+}
